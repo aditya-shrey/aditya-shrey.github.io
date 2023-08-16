@@ -59,6 +59,24 @@
 			.project-item:hover img {
 				filter: brightness(1.2);
 			}
+
+			.view-button {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: #3498db;
+				color: white;
+				font-size: 16px;
+				padding: 10px 20px;
+				border-radius: 30px;
+				margin-top: 15px;
+				cursor: pointer;
+				transition: background-color 0.3s ease-in-out;
+			}
+
+			.view-button:hover {
+				background-color: #2980b9;
+			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -99,6 +117,15 @@
 								</header>
 								<section>
 									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<div class="project-item">
+												<img style="display: flex; max-width: 100%; max-height: 100%;" src="images/project1-rose.jpg" alt="">
+												<h3 style="margin-top: 10px;">Flower Classifier</h3>
+												<p style="font-size: 15px; line-height: 1.5;">A website demonstrating various self-trained CNN models classifying different flower types.</p>
+												<!-- View button -->
+												<div class="view-button" onclick="window.open('https://flower-classifier.netlify.app', '_blank')">View Here</div>
+											</div>
+										</div>
 										<div class="col-4 col-6-medium col-12-small">
 											<div class="project-item">
 											  <a href="https://flower-classifier.netlify.app" target="_blank">
