@@ -1,215 +1,65 @@
-<!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Aditya Shrey</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <head>
+        <title>Aditya Shrey</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
 
-		<style>
-			.left-content {
-				width: 80%;
-				padding: 3px;
-				box-sizing: border-box;
-			}
+    <body >
+        <!-- Header Bar Section -->
+        <div class="header-bar">
+            <div class="header-link-left" onclick="window.scrollTo(0, 0)">Aditya Shrey</div>
+            <nav class="header-link-right">
+                <a href="#projects" >Projects</a>
+            </nav>
+        </div>
 
-			.right-content {
-				padding: 10px;
-				box-sizing: border-box;
-			}
-	
-			.profile-image {
-				max-width: 100%;
-				height: auto;
-				display: block;
-				margin-top: 20px;
-			}
+        <!-- Personal Information Section -->
+        <div class="personal_body">
+            <img class="personal_img" src="assets/images/me.jpeg">
+            <div>
+                <p class="personal_title">Undergraduate Student @ Vanderbilt University</p>
+                <p class="personal_contact" style="display: flex; align-items: center;">
+                    aditya.shrey [at] vanderbilt.edu
+                    <a href="https://github.com/aditya-shrey" target="_blank" style="margin-left: 10px;">
+                        <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40' style="filter: brightness(50%);">
+                    </a>
+                    <a href="https://www.linkedin.com/in/adityashrey/" target="_blank" style="margin-left: 10px;">
+                        <img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40' style="filter: brightness(50%);">
+                    </a>
+                </p>
+                <p class="personal_text" style="line-height: 1.5;">
+                    My name is Aditya, and I am currently an undergraduate student studying Computer Science 
+                    and Mathematics at Vanderbilt University. I enjoy learning about 
+                    different technologies, their applications, and problem-solving strategies. 
+                    Currently, my interests are in machine learning and computer vision, but I'm open to 
+                    exploring and learning. I am an aspiring software engineer and look forward to driving 
+                    innovation in the industry.
+                </p>
+            </div>
+        </div>
 
-			.grid-container {
-				display: grid;
-				grid-template-columns: 25% 75%;
-			}
+        <!-- Projects Section -->
+        <h1 style="padding: 20px;" class="project_header">Projects</h1>
+        <div class="project_grid" id="projects">
+            <div class="project_box">
+                <img src="assets/images/flowerclass.jpg" alt="Flower Classifier">
+                <h2>Flower Classifier</h2>
+                <p>A website demonstrating various self-trained CNN models classifying different flower types.</p>
+                <a href="https://flower-classifier.netlify.app">Site</a>
+            </div>
+            <!-- <div class="project_box">
+                <img src="path_to_project2_image" alt="Project 2">
+                <h2>Project 2</h2>
+                <p>Short description of Project 2.</p>
+                <a href="link_to_project2">Link to Project 2</a>
+            </div> -->
+        </div>
 
-			.no-underline {
-				text-decoration: none;
-			}
-
-			.centered-container {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-			}
-
-			/* Project buttons */
-			.view-button {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				background-color: #913be8;
-				color: white;
-				font-size: 20px;
-				padding: 10px 20px;
-				border-radius: 0px;
-				margin-top: 0px;
-				cursor: pointer;
-				transition: background-color 0.3s ease-in-out;
-			}
-
-			.view-button:hover {
-				background-color: #6e2aae;
-			}
-
-			input[type="submit"] {
-				background-color: #913be8;
-				color: white;
-			}
-
-			input[type="submit"]:hover {
-				background-color: #6e2aae; /* Change to your desired hover color */
-				/* Additional styles for hover effect... */
-			}
-		</style>
-	</head>
-	<body class="is-preload">
-
-		<!-- Wrapper-->
-			<div id="wrapper">
-
-				<!-- Nav -->
-					<nav id="nav">
-						<a href="#" class="icon solid fa-home"><span>Home</span></a>
-						<a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
-						<a href="#about" class="icon solid fa-user"><span>About</span></a>
-						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<a href="https://www.linkedin.com/in/adityashrey" class="icon brands fa-linkedin"><span>LinkedIn</span></a>
-						<a href="https://github.com/aditya-shrey" class="icon brands fa-github"><span>GitHub</span></a>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Home -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Aditya Shrey</h1>
-									<p>Computer Science and Mathematics Undergraduate at Vanderbilt University</p>
-									<p>Aspiring Software Engineer</p>
-								</header>
-								<a href="#projects" class="jumplink pic">
-									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="images/seattle.jpg" alt="" />
-								</a>
-							</article>
-
-						<!-- Projects -->
-							<article id="projects" class="panel">
-								<header>
-									<h2>Projects</h2>
-								</header>
-								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<div class="project-item">
-												<img style="display: flex; max-width: 100%; max-height: 100%;" src="images/project1-rose.jpg" alt="">
-												<h3 style="margin-top: 10px;">Flower Classifier</h3>
-												<p style="font-size: 15px; line-height: 1.5;">A website demonstrating various self-trained CNN models classifying different flower types.</p>
-												<!-- View button -->
-												<div class="view-button" onclick="window.open('https://flower-classifier.netlify.app', '_blank')">View Here</div>
-											</div>
-										</div>
-									</div>
-								</section>
-							</article>
-
-						<!-- About -->
-							<article id="about" class="panel">
-								<header>
-									<h2>About Me</h2>
-								</header>
-								<div class="grid-container">
-									<div class="left-content">
-										<img src="images/profile.jpg" alt="Profile" class="profile-image" />
-										<div class="centered-container">
-											<p> <strong> Aditya Shrey </strong></p>
-										</div>
-										<p style="font-size: 15px; line-height: 1.2; margin-top: -30px;"><strong>B.S. Computer Science and Mathematics 
-											<br><em>Vanderbilt University
-											<br>(2022 &mdash; Present)</em></strong></p>
-									</div>
-									<div class="right-content">
-										<p>
-											My name is Aditya, and I am currently an undergraduate student studying Computer Science and Mathematics at Vanderbilt 
-											University School of Engineering. I enjoy learning about different technologies, their applications, and problem-solving strategies. 
-											Currently, my interests are in machine learning and computer vision, but I'm open to exploring and learning. 
-											I am an aspiring software engineer and look forward to driving innovation in the industry. 
-										</p>
-										<p>Feel free to explore my projects and learn more about my journey. You can contact me 
-											<a href="#contact" class="no-underline">here. </a>
-										</p>
-										<p> Outside of coding, projects, and studying, I enjoy reading, recreational bodybuilding, 
-											and going on walks. I'm also a Seattleite! </p>
-										<p style="font-size: 10px;">
-											Last Updated on August 2023.
-										</p>
-									</div>
-								</div>
-							</article>
-
-						<!-- Contact -->
-							<article id="contact" class="panel">
-								<header>
-									<h2>Contact Me</h2>
-								</header>
-								<div>
-									<p> Feel free to reach out to me here. I'll try to get back as soon as I can. </p>
-								</div>
-								<form action="https://formspree.io/f/mzblewgw" method="POST">
-									<div>
-										<div class="row">
-											<div class="col-6 col-12-medium">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-medium">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<input type="submit" value="Send Message" />
-											</div>
-										</div>
-									</div>
-								</form>
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<div id="footer">
-						<ul class="copyright">
-							<li>&copy; 2023 Aditya Shrey.</li>				
-						</ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+        <!-- Footer Section -->
+        <div class="footer">
+            <p class="footer-text">Inspiration from Rohan Rashingkar and Ethan Shen</p>
+            <a href="#top" class="footer-link">Back to Top</a>
+        </div>
+    </body>
 </html>

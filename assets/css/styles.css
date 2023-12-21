@@ -1,0 +1,167 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding-top: 100px;
+}
+
+div {
+    padding: 15px;
+}
+
+h1 {
+    padding: 15px;
+}
+
+
+/* Header Bar Styling */
+.header-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 20px 15px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.header-link-left {
+    color: #333;
+    font-size: 32px;
+    flex: 50%;
+    margin-right: 10px; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header-link-right {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.header-link-right a {
+    text-decoration: none;
+    color: rgb(87, 154, 230);
+    
+}
+
+.header-link-right a:hover {
+    color: rgb(48, 60, 75);
+}
+
+
+/* Personal Info Styling */
+.personal_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal_title {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.personal_contact {
+    color: grey;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.personal_text {
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+.personal_img {
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+}
+
+
+/* Project Styling */
+.project_header {
+    color: #333;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.project_grid {
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.project_box {
+    background-color: #e0e0e0; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.project_box img {
+    width: 100%;
+    height: auto;
+}
+
+.project_box h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.project_box p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.project_box a {
+    color: rgb(87, 154, 230);
+    text-decoration: none;
+}
+
+.project_box a:hover {
+    color: rgb(48, 60, 75);
+}
+
+
+/* Footer Styling */
+.footer {
+    margin: 20px;
+    float: right; 
+    text-align: right;
+}
+
+.footer-text {
+    color: #333;
+    font-size: 12px;
+}
+
+.footer-link {
+    color: rgb(87, 154, 230);
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+    text-align: right; 
+}
+
+.footer-link:hover {
+    color: rgb(48, 60, 75);
+}
