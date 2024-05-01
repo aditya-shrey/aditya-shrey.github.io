@@ -2,77 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:51493/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/blog/</loc>
+    <loc>https://example.org/blog/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/cnn/</loc>
+    <loc>https://example.org/tags/cnn/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/projects/enhancing_melanoma_detection/</loc>
+    <loc>https://example.org/projects/enhancing_melanoma_detection/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/blog/first/</loc>
+    <loc>https://example.org/blog/first/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/first-post/</loc>
+    <loc>https://example.org/tags/first-post/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/logistic-regression/</loc>
+    <loc>https://example.org/tags/logistic-regression/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/machine-learning/</loc>
+    <loc>https://example.org/tags/machine-learning/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/projects/</loc>
+    <loc>https://example.org/tags/projects/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/projects/</loc>
+    <loc>https://example.org/projects/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/svm/</loc>
+    <loc>https://example.org/tags/svm/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/</loc>
+    <loc>https://example.org/tags/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/transfer-learning/</loc>
+    <loc>https://example.org/tags/transfer-learning/</loc>
     <lastmod>2024-04-26T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/a/</loc>
+    <loc>https://example.org/tags/a/</loc>
     <lastmod>2024-04-25T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/projects/autonomous_vehicles/</loc>
+    <loc>https://example.org/projects/autonomous_vehicles/</loc>
     <lastmod>2024-04-25T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/autonomous-vehicles/</loc>
+    <loc>https://example.org/tags/autonomous-vehicles/</loc>
     <lastmod>2024-04-25T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/particle-filtering/</loc>
+    <loc>https://example.org/tags/particle-filtering/</loc>
     <lastmod>2024-04-25T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/perception/</loc>
+    <loc>https://example.org/tags/perception/</loc>
     <lastmod>2024-04-25T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/stanley-controller/</loc>
+    <loc>https://example.org/tags/stanley-controller/</loc>
     <lastmod>2024-04-25T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/data-security/</loc>
+    <loc>https://example.org/tags/data-security/</loc>
     <lastmod>2024-04-20T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/generative-ai/</loc>
+    <loc>https://example.org/tags/generative-ai/</loc>
     <lastmod>2024-04-20T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/projects/grant_self_service/</loc>
+    <loc>https://example.org/projects/grant_self_service/</loc>
     <lastmod>2024-04-20T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/tags/rag/</loc>
+    <loc>https://example.org/tags/rag/</loc>
     <lastmod>2024-04-20T15:01:10-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:51493/categories/</loc>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:51493/search/</loc>
+    <loc>https://example.org/search/</loc>
   </url>
 </urlset>

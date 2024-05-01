@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Particle Filtering on Aditya Shrey</title>
-    <link>http://localhost:51493/tags/particle-filtering/</link>
+    <link>https://example.org/tags/particle-filtering/</link>
     <description>Recent content in Particle Filtering on Aditya Shrey</description>
     <generator>Hugo -- 0.125.4</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Apr 2024 15:01:10 -0500</lastBuildDate>
-    <atom:link href="http://localhost:51493/tags/particle-filtering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/tags/particle-filtering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Autonomous Taxi System within a Simulated City Environment</title>
-      <link>http://localhost:51493/projects/autonomous_vehicles/</link>
+      <link>https://example.org/projects/autonomous_vehicles/</link>
       <pubDate>Thu, 25 Apr 2024 15:01:10 -0500</pubDate>
-      <guid>http://localhost:51493/projects/autonomous_vehicles/</guid>
+      <guid>https://example.org/projects/autonomous_vehicles/</guid>
       <description>Introduction Our immersion project focused on developing an autonomous taxi system within a simulated miniature city environment. We programmed a virtual taxi to navigate this environment autonomously, relying solely on raw sensor measurements (e.g., GPS, IMU) and the bounding box output of object detection algorithms. The core challenge involved achieving robust perception and localization, allowing the taxi to understand its surroundings and precisely determine its position within the map. This perception data then fueled dynamic routing and motion planning.</description>
     </item>
   </channel>
