@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Aditya Shrey</title>
+    <link>http://localhost:49598/posts/</link>
+    <description>Recent content in Posts on Aditya Shrey</description>
+    <generator>Hugo -- 0.125.4</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2024 15:01:10 -0500</lastBuildDate>
+    <atom:link href="http://localhost:49598/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autonomous Taxi System within a Simulated City Environment</title>
+      <link>http://localhost:49598/posts/first-copy/</link>
+      <pubDate>Thu, 25 Apr 2024 15:01:10 -0500</pubDate>
+      <guid>http://localhost:49598/posts/first-copy/</guid>
+      <description>Practice Second Post \[ \begin{aligned} 3 + 4 \end{aligned} \] </description>
+    </item>
+  </channel>
+</rss>

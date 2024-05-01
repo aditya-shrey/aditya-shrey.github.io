@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Transfer Learning on Aditya Shrey</title>
+    <link>http://localhost:51493/tags/transfer-learning/</link>
+    <description>Recent content in Transfer Learning on Aditya Shrey</description>
+    <generator>Hugo -- 0.125.4</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Apr 2024 15:01:10 -0500</lastBuildDate>
+    <atom:link href="http://localhost:51493/tags/transfer-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enhancing Melanoma Detection: A Comparative Study of Machine Learning Techniques Using the Melanoma Skin Cancer Dataset</title>
+      <link>http://localhost:51493/projects/enhancing_melanoma_detection/</link>
+      <pubDate>Fri, 26 Apr 2024 15:01:10 -0500</pubDate>
+      <guid>http://localhost:51493/projects/enhancing_melanoma_detection/</guid>
+      <description>Abstract Early detection of melanoma skin cancer is critical for effective treatment. In this study, we compare machine learning techniques, including CNNs, SVMs, Logistic Regression, and Transfer Learning with ResNet-18, using the Melanoma Skin Cancer Dataset. Through pre-processing and hyperparameter optimization, we assess model performance in terms of accuracy, precision, recall, and F1-score. Our findings highlight CNNs’ efficacy in achieving high accuracy, with SVM and Transfer Learning also showing promise. This study contributes to advancing machine learning applications in medical imaging for melanoma detection.</description>
+    </item>
+  </channel>
+</rss>

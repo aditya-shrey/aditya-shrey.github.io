@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Data Security on Aditya Shrey</title>
+    <link>http://localhost:51493/tags/data-security/</link>
+    <description>Recent content in Data Security on Aditya Shrey</description>
+    <generator>Hugo -- 0.125.4</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Apr 2024 15:01:10 -0500</lastBuildDate>
+    <atom:link href="http://localhost:51493/tags/data-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grants Self Service System</title>
+      <link>http://localhost:51493/projects/grant_self_service/</link>
+      <pubDate>Sat, 20 Apr 2024 15:01:10 -0500</pubDate>
+      <guid>http://localhost:51493/projects/grant_self_service/</guid>
+      <description>Introduction The Grants-Self-Service project represents a transformative step in managing the grant application process at Vanderbilt University. This pioneering initiative utilizes advanced generative AI, including private, institutional AI instances and innovative techniques like retrieval augmented generation (RAG) and custom GPT models. Our aim is to simplify and accelerate grant development and submission, enabling faculty to swiftly access and efficiently handle vast repositories of prior grant data, which include over 479,980 previously submitted grants.</description>
+    </item>
+  </channel>
+</rss>
