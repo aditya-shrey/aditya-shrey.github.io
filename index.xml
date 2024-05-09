@@ -6,21 +6,22 @@
     <description>Recent content on Aditya Shrey</description>
     <generator>Hugo -- 0.125.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Apr 2024 15:01:10 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 May 2024 15:01:10 -0500</lastBuildDate>
     <atom:link href="https://aditya-shrey.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating Folder Sync Between Private and Public Repositories Using GitHub Actions</title>
+      <link>https://aditya-shrey.github.io/blog/first/</link>
+      <pubDate>Wed, 08 May 2024 15:01:10 -0500</pubDate>
+      <guid>https://aditya-shrey.github.io/blog/first/</guid>
+      <description>Background I will discuss the automation of folder sync between private and public repositories using GitHub actions. My prior experience with automation techniques such as these is limited. However, I believe that this experience has helped me learn more about workflows and has also helped me with my personal website.
+As I transitioned to using Hugo for building my website, I decided to create a new private repository for developmental purposes.</description>
+    </item>
     <item>
       <title>Enhancing Melanoma Detection: A Comparative Study of Machine Learning Techniques Using the Melanoma Skin Cancer Dataset</title>
       <link>https://aditya-shrey.github.io/projects/enhancing_melanoma_detection/</link>
       <pubDate>Fri, 26 Apr 2024 15:01:10 -0500</pubDate>
       <guid>https://aditya-shrey.github.io/projects/enhancing_melanoma_detection/</guid>
       <description>Abstract Early detection of melanoma skin cancer is critical for effective treatment. In this study, we compare machine learning techniques, including CNNs, SVMs, Logistic Regression, and Transfer Learning with ResNet-18, using the Melanoma Skin Cancer Dataset. Through pre-processing and hyperparameter optimization, we assess model performance in terms of accuracy, precision, recall, and F1-score. Our findings highlight CNNs’ efficacy in achieving high accuracy, with SVM and Transfer Learning also showing promise. This study contributes to advancing machine learning applications in medical imaging for melanoma detection.</description>
-    </item>
-    <item>
-      <title>testing permissions</title>
-      <link>https://aditya-shrey.github.io/blog/first/</link>
-      <pubDate>Fri, 26 Apr 2024 15:01:10 -0500</pubDate>
-      <guid>https://aditya-shrey.github.io/blog/first/</guid>
-      <description>Practice First Post Testings 1234</description>
     </item>
     <item>
       <title>Autonomous Taxi System within a Simulated City Environment</title>
