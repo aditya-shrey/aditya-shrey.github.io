@@ -16,7 +16,7 @@
       <description>Abstract Early detection of melanoma skin cancer is critical for effective treatment. In this study, we compare machine learning techniques, including CNNs, SVMs, Logistic Regression, and Transfer Learning with ResNet-18, using the Melanoma Skin Cancer Dataset. Through pre-processing and hyperparameter optimization, we assess model performance in terms of accuracy, precision, recall, and F1-score. Our findings highlight CNNs’ efficacy in achieving high accuracy, with SVM and Transfer Learning also showing promise. This study contributes to advancing machine learning applications in medical imaging for melanoma detection.</description>
     </item>
     <item>
-      <title>First</title>
+      <title>testing permissions</title>
       <link>https://aditya-shrey.github.io/blog/first/</link>
       <pubDate>Fri, 26 Apr 2024 15:01:10 -0500</pubDate>
       <guid>https://aditya-shrey.github.io/blog/first/</guid>
