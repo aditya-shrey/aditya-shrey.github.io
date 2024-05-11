@@ -10,9 +10,9 @@
     <atom:link href="https://aditya-shrey.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automating Folder Sync Between Private and Public Repositories Using GitHub Actions</title>
-      <link>https://aditya-shrey.github.io/blog/first/</link>
+      <link>https://aditya-shrey.github.io/blogs/first/</link>
       <pubDate>Wed, 08 May 2024 15:01:10 -0500</pubDate>
-      <guid>https://aditya-shrey.github.io/blog/first/</guid>
+      <guid>https://aditya-shrey.github.io/blogs/first/</guid>
       <description>Background I will discuss the automation of folder sync between private and public repositories using GitHub actions. My prior experience with automation techniques such as these is limited. However, I believe that this experience has helped me learn more about workflows and has also helped me with my personal website.
 As I transitioned to using Hugo for building my website, I decided to create a new private repository for developmental purposes.</description>
     </item>
