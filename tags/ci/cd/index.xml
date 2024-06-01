@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ci/Cd on Aditya Shrey</title>
-    <link>https://aditya-shrey.github.io/tags/ci/cd/</link>
+    <link>http://localhost:1313/tags/ci/cd/</link>
     <description>Recent content in Ci/Cd on Aditya Shrey</description>
     <generator>Hugo -- 0.125.4</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 May 2024 15:01:10 -0500</lastBuildDate>
-    <atom:link href="https://aditya-shrey.github.io/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automating Folder Sync Between Private and Public Repositories Using GitHub Actions</title>
-      <link>https://aditya-shrey.github.io/blogs/first/</link>
+      <link>http://localhost:1313/blogs/first/</link>
       <pubDate>Wed, 08 May 2024 15:01:10 -0500</pubDate>
-      <guid>https://aditya-shrey.github.io/blogs/first/</guid>
+      <guid>http://localhost:1313/blogs/first/</guid>
       <description>Background I will discuss the automation of folder sync between private and public repositories using GitHub actions. My prior experience with automation techniques such as these is limited. However, I believe that this experience has helped me learn more about workflows and has also helped me with my personal website.
 As I transitioned to using Hugo for building my website, I decided to create a new private repository for developmental purposes.</description>
     </item>
