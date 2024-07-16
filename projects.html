@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aditya Shrey - Projects</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/images/as.png" type="image/png">
+</head>
+<body>
+    <!-- Header Bar Section -->
+    <div class="header-bar">
+        <div class="header-link-left">
+            <a href="index.html" class="header-link-left">
+                <img src="assets/images/adityashrey.png" alt="aditya shrey" class="normal-image">
+                <img src="assets/images/adityashrey_hover.png" alt="aditya shrey" class="hover-image">
+            </a>
+        </div>
+        <nav class="header-link-right">
+            <a href="projects.html" class="header-link">projects</a>
+        </nav>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="project_grid" id="projects">
+        <!-- <div class="project_box" onclick="handleCardClick('site', 'https://flower-classifier.netlify.app')">
+            <img src="assets/images/flowerclass.jpg" alt="Flower Classifier">
+            <h2>Flower Classifier</h2>
+            <p>A website demonstrating various self-trained CNN models classifying different flower types.</p>
+            <a href="https://flower-classifier.netlify.app">Site</a>
+        </div> -->
+        <div class="project_box" onclick="handleCardClick('modal', '01')">
+            <img src="assets/projects/01-enhancingmelanomadection/melanoma.jpeg" alt="EnhancingMelanomaDetect">
+            <h2>Enhancing Melanoma Detection</h2>
+            <p>A comparative study of machine learning techniques, including transfer learning, CNNs, SVMs, and logistic regression, using the Melanoma Skin Cancer Dataset.</p>
+        </div>
+        <div class="project_box" onclick="handleCardClick('modal', '02')">
+            <img src="assets/projects/02-avproj/av.jpg" alt="AutonomousVehicle">
+            <h2>Autonomous Taxi System within a Simulated City Environment</h2>
+            <p>An Autonomous Vehicle Taxi system combining localization, routing, motion planning, and perception algorithms to navigate a simuated city.</p>
+        </div>
+        <div class="project_box" onclick="handleCardClick('modal', '03')">
+            <img src="assets/projects/03-grantselfservice/research-grants.jpg" alt="Grants-Self-Service">
+            <h2>Grants Self Service System</h2>
+            <p>Grants-Self-Service System uses LLMs and RAG techniques to streamline Vanderbilt University's grant applications, providing quick access to prior grant data securely.</p>
+        </div>
+    </div>
+
+    <!-- Modal for Project Details -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-body">
+                <!-- Dynamic content goes here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p class="footer-text">
+            <a href="mailto:aditya.shrey@vanderbilt.edu">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/aditya-shrey" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/adityashrey/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </p>
+    </div>
+</body>
+</html>
