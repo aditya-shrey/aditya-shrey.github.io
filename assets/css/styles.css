@@ -315,3 +315,30 @@ h1 {
     width: 100%;
     max-width: 600px;
 }
+
+.iframe-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.pdf-container {
+    padding-top: 106%;
+}
+
+.slides-container {
+    padding-top: 46%;
+}
+
+.video-container {
+    padding-top: 30%;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
