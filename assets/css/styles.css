@@ -157,13 +157,13 @@ h1 {
 
 .project_box img {
     width: 100%;
-    height: auto;
+    height: 250px; /* Set fixed height */
+    object-fit: cover; /* Maintain aspect ratio */
     border-radius: 10px;
-    height: 250px;
 }
 
 .project_box h2 {
-    font-size: 20px;
+    font-size: 22px;
     margin: 10px 0;
     color: #f0f0f0;
 }
@@ -172,6 +172,7 @@ h1 {
     font-size: 16px;
     margin: 10px 0;
     color: #f0f0f0;
+    line-height: 1.5; 
 }
 
 .project_box a {
@@ -187,10 +188,12 @@ h1 {
     background-color: #555;
 }
 
+
 /* Footer Styling */
 .footer {
     margin: 0px;
     text-align: center;
+    position: relative;
 }
 
 .footer-text {
@@ -212,10 +215,12 @@ h1 {
     color: #EBD45C;
 }
 
-.email-text {
+.footer-modified {
     color: #f0f0f0;
-    font-size: 14px;
-    margin-left: 10px;
+    font-size: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
 }
 
 /* Modal Styling */

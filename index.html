@@ -53,6 +53,18 @@
                 <i class="fab fa-linkedin"></i>
             </a>
         </p>
+        <p class="footer-modified">
+            Last modified on <span id="last-modified"></span>
+        </p>
     </div>
+
+    <script>
+        function formatDate(date) {
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            return new Date(date).toLocaleDateString('en-US', options);
+        }
+        
+        document.getElementById("last-modified").textContent = formatDate(document.lastModified);
+    </script>
 </body>
 </html>
