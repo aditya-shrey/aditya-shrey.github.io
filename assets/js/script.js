@@ -48,11 +48,11 @@ function handleCardClick(type, content) {
                         </div>
                         <h3 style="margin-bottom: 20px;">Project Report</h3>
                         <div class="iframe-container pdf-container">
-                            <iframe src="assets/projects/01-enhancingmelanomadection/enhancing_melanoma_detection.pdf"></iframe>
+                            <iframe src="../assets/projects/01-enhancingmelanomadection/enhancing_melanoma_detection.pdf"></iframe>
                         </div>
                         <h3 style="margin-top: 50px; margin-bottom: 20px;">Presentation Slides</h3>
                         <div class="iframe-container slides-container">
-                            <iframe src="assets/projects/01-enhancingmelanomadection/enhancing_melanoma_detection_slides.pdf"></iframe>
+                            <iframe src="../assets/projects/01-enhancingmelanomadection/enhancing_melanoma_detection_slides.pdf"></iframe>
                         </div>
                     </div>
                 `;
@@ -74,11 +74,11 @@ function handleCardClick(type, content) {
                         </div>
                         <h3 style="margin-top: 20px; margin-bottom: 20px;">Presentation Slides</h3>
                         <div class="iframe-container slides-container">
-                            <iframe src="assets/projects/02-avproj/autonomous_vehicle_pres.pdf"></iframe>
+                            <iframe src="../assets/projects/02-avproj/autonomous_vehicle_pres.pdf"></iframe>
                         </div>
                         <h3 style="margin-top: 50px; margin-bottom: 20px;">Project Report</h3>
                         <div class="iframe-container pdf-container">
-                            <iframe src="assets/projects/02-avproj/autonomous_vehicle_report.pdf"></iframe>
+                            <iframe src="../assets/projects/02-avproj/autonomous_vehicle_report.pdf"></iframe>
                         </div>
                         <h3 style="margin-top: 50px; margin-bottom: 20px;">Video Demonstration</h3>
                         <div class="iframe-container video-container">
@@ -103,7 +103,7 @@ function handleCardClick(type, content) {
                         </div>
                         <h3 style="margin-top: 30px; margin-bottom: 20px;">Presentation Slides</h3>
                         <div class="iframe-container slides-container">
-                            <iframe src="assets/projects/03-grantselfservice/grants_self_service_slides.pdf"></iframe>
+                            <iframe src="../assets/projects/03-grantselfservice/grants_self_service_slides.pdf"></iframe>
                         </div>
                     </div>
                     `;
