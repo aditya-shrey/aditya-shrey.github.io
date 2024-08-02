@@ -146,6 +146,18 @@ h1 {
     flex: 1;
 }
 
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply animation to project boxes */
 .project_box {
     background-color: #333;
     padding: 20px;
@@ -153,6 +165,29 @@ h1 {
     border-radius: 10px;
     transition: background-color 0.3s ease;
     cursor: pointer;
+    animation: slideInFromRight 0.6s ease forwards;
+    opacity: 0;
+}
+
+/* Staggered animation delays for each project box */
+.project_box:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.project_box:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.project_box:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.project_box:nth-child(4) {
+    animation-delay: 0.2s;
+}
+
+.project_box:nth-child(5) {
+    animation-delay: 0.3s;
 }
 
 .project_box img {
