@@ -21,27 +21,67 @@
     </div>
 
     <!-- Projects Section -->
-    <div class="project_grid" id="projects">
-        <div class="project_box" onclick="handleCardClick('modal', '02')">
-            <img src="../assets/projects/02-avproj/av.jpg" alt="AutonomousVehicle">
-            <h2>Autonomous Taxi System within a Simulated City Environment</h2>
-            <p>An Autonomous Vehicle Taxi system combining localization, routing, motion planning, and perception algorithms to navigate a simuated city.</p>
+    <h2 class="project_header">Machine Learning & AI Systems</h2>
+    <div class="project_grid">
+
+        <div class="project_box" onclick="window.location.href='https://github.com/arvchahal/sparse-GP-kernel-combinations-web-forecasting'">
+            <img src="../assets/projects/07-sparse-gp/simple-toy.png" alt="Pulse Productivity">
+            <h2>Kernel Combinations for Sparse Gaussian Processes in Correlated Web Traffic Forecasting</h2>
+            <p>An exploration of kernel combinations in a Sparse Gaussian Process framework to forecast web traffic data, optimizing scalability using inducing points and ELBO maximization.</p>
         </div>
+
         <div class="project_box" onclick="handleCardClick('modal', '01')">
             <img src="../assets/projects/01-enhancingmelanomadection/melanoma.jpeg" alt="EnhancingMelanomaDetect">
             <h2>Enhancing Melanoma Detection</h2>
             <p>A comparative study of machine learning techniques, including transfer learning, CNNs, SVMs, and logistic regression, using the Melanoma Skin Cancer Dataset.</p>
         </div>
+
+        <div class="project_box" onclick="handleCardClick('modal', '06')">
+            <img src="../assets/projects/06-rl-recsys/recsys.jpg" alt="RL-RecommenderSystem">
+            <h2>Reinforcement Learning for Recommender Systems</h2>
+            <p>A critical review of multi-agent, multi-scenario, and multi-task frameworks in reinforcement learning for recommender systems.</p>
+        </div>
+
         <div class="project_box" onclick="handleCardClick('modal', '03')">
             <img src="../assets/projects/03-grantselfservice/research-grants.jpg" alt="Grants-Self-Service">
             <h2>Grants Self Service System</h2>
             <p>Grants-Self-Service System uses LLMs and RAG techniques to streamline Vanderbilt University's grant applications, providing quick access to prior grant data securely.</p>
         </div>
+
+
+    </div>
+
+    <h2 class="project_header">Cloud & Scalable Systems</h2>
+    <div class="project_grid grid_with_1">
+        
+        <div class="project_box" onclick="handleCardClick('modal', '08')">
+            <img src="../assets/projects/08-cloud-proj/sys-design-vlm.png" alt="Cloud-System">
+            <h2>Cloud System for Web-based Accessibility using Synthetic Recaptioning</h2>
+            <p>A cloud-based system that explores scheduling strategies for task distribution and resource management to efficiently integrate Vision-Language Models for generating accurate and context-rich image captions in real-time.</p>
+        </div>
+
+    </div>
+
+    <h2 class="project_header">Autonomous Systems & Robotics</h2>
+    <div class="project_grid grid_with_1">
+
+        <div class="project_box" onclick="handleCardClick('modal', '02')">
+            <img src="../assets/projects/02-avproj/av.jpg" alt="AutonomousVehicle">
+            <h2>Autonomous Taxi System within a Simulated City Environment</h2>
+            <p>An Autonomous Vehicle Taxi system combining localization, routing, motion planning, and perception algorithms to navigate a simuated city.</p>
+        </div>
+
+    </div>
+
+    <h2 class="project_header">Software Engineering & Applications</h2>
+    <div class="project_grid">
+
         <div class="project_box" onclick="window.location.href='https://pulseproductivity.online/dashboard'">
             <img src="../assets/projects/05-productivity-pulse/PulseProductivityLogo.png" alt="Pulse Productivity">
             <h2>Pulse Productivity</h2>
             <p>A productivity tool designed for project teams to streamline workflows, enhance collaboration, and maximize efficiency.</p>
         </div>
+
         <div class="project_box" onclick="window.location.href='https://github.com/aditya-shrey/QuizLITE'">
             <img src="../assets/projects/04-quizlite/flashcards.jpg" alt="QuizLITE">
             <h2>QuizLITE</h2>
@@ -49,6 +89,7 @@
         </div>
 
     </div>
+
 
     <!-- Modal for Project Details -->
     <div id="project-modal" class="modal">

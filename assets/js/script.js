@@ -87,27 +87,75 @@ function handleCardClick(type, content) {
                     </div>
                 `;
                 break;
-                case '03':
-                    contentHtml = `
-                    <div class="projects">
-                        <h2>Grants Self Service System</h2>
-                        <div class="key-concepts">
-                            <div class="concept">Generative AI</div>
-                            <div class="concept">RAG</div>
-                            <div class="concept">LLMs</div>
-                            <div class="concept">Data Security</div>
-                        </div>
-                        <h3>Introduction</h3>
-                        <div class="content">
-                            <p>The Grants-Self-Service project represents a transformative step in managing the grant application process at Vanderbilt University. This pioneering initiative utilizes advanced generative AI, including private, institutional AI instances and innovative techniques like retrieval augmented generation (RAG) and custom GPT models. <br><br> Our aim is to simplify and accelerate grant development and submission, enabling faculty to swiftly access and efficiently handle vast repositories of prior grant data, which include over 479,980 previously submitted grants. The system ensures high data privacy and security standards by operating within Vanderbilt’s high-performance computing environment. By streamlining these complex processes, the project supports our academic community in navigating the intricacies of funding and research management more effectively. Our goal is to create a self-service system designed to accelerate the process of developing and submitting grants, enabling faculty to quickly access prior grant information and address grant related inquiries efficiently. The project leverages private, institutional instances of generative AI, explore retrieval augmented generation (RAG), and utilize vast quantities of existing data.</p>
-                        </div>
-                        <h3 style="margin-top: 30px; margin-bottom: 20px;">Presentation Slides</h3>
-                        <div class="iframe-container slides-container">
-                            <iframe src="../assets/projects/03-grantselfservice/grants_self_service_slides.pdf"></iframe>
-                        </div>
+            case '03':
+                contentHtml = `
+                <div class="projects">
+                    <h2>Grants Self Service System</h2>
+                    <div class="key-concepts">
+                        <div class="concept">Generative AI</div>
+                        <div class="concept">RAG</div>
+                        <div class="concept">LLMs</div>
+                        <div class="concept">Data Security</div>
                     </div>
-                    `;
-                    break;
+                    <h3>Introduction</h3>
+                    <div class="content">
+                        <p>The Grants-Self-Service project represents a transformative step in managing the grant application process at Vanderbilt University. This pioneering initiative utilizes advanced generative AI, including private, institutional AI instances and innovative techniques like retrieval augmented generation (RAG) and custom GPT models. <br><br> Our aim is to simplify and accelerate grant development and submission, enabling faculty to swiftly access and efficiently handle vast repositories of prior grant data, which include over 479,980 previously submitted grants. The system ensures high data privacy and security standards by operating within Vanderbilt’s high-performance computing environment. By streamlining these complex processes, the project supports our academic community in navigating the intricacies of funding and research management more effectively. Our goal is to create a self-service system designed to accelerate the process of developing and submitting grants, enabling faculty to quickly access prior grant information and address grant related inquiries efficiently. The project leverages private, institutional instances of generative AI, explore retrieval augmented generation (RAG), and utilize vast quantities of existing data.</p>
+                    </div>
+                    <h3 style="margin-top: 30px; margin-bottom: 20px;">Presentation Slides</h3>
+                    <div class="iframe-container slides-container">
+                        <iframe src="../assets/projects/03-grantselfservice/grants_self_service_slides.pdf"></iframe>
+                    </div>
+                </div>
+                `;
+                break;
+            case '06':
+                contentHtml = `
+                <div class="projects">
+                    <h2>Reinforcement Learning for Recommender Systems: A Critical Review of Multi-Agent, Multi-Scenario, and Multi-Task Frameworks</h2>
+                    <div class="key-concepts">
+                        <div class="concept">Reinforcement Learning</div>
+                        <div class="concept">Recommender Systems</div>
+                        <div class="concept">Multi-Task Learning</div>
+                        <div class="concept">Scalability</div>
+                        <div class="concept">Markov Decision Processes</div>
+                        <div class="concept">Dynamic User Preferences</div>
+                    </div>
+                    <h3>Abstract</h3></h3>
+                    <div class="content">
+                        <p>Recommender systems are platforms designed to promote personalized services or products to users, such as targeted advertisements on social media. Reinforcement learning (RL) approaches have emerged as powerful tools to improve recommender systems, focusing on optimizing long-term engagement and balancing dynamic user preferences. In this paper, we examine the integration of RL across different facets of recommender systems, including Multi-Task Fusion [4], multi-scenario alignment [7], and hybrid approaches leveraging bi-clustering and MDPs for scala- bility [2]. Additionally, we explore state-of-the-art frameworks, such as UNEX-RL [6], which optimize multi-stage pipelines to enhance long-term rewards. By high- lighting the advancements, challenges, and emerging directions of the current landscape, this paper provides a comprehensive perspective on designing robust and scalable RL-based recommender systems.</p>
+                    </div>
+                    <h3 style="margin-top: 50px; margin-bottom: 20px;">Project Report</h3>
+                    <div class="iframe-container pdf-container">
+                        <iframe src="../assets/projects/06-rl-recsys/CS_5891___Final_Project_AdityaShrey.pdf"></iframe>
+                    </div>
+                </div>
+                `;
+                break;
+            case '08':
+                contentHtml = `
+                <div class="projects">
+                    <h2>Cloud System for Web-based Accessibility using Synthetic Recaptioning</h2>
+                    <div class="key-concepts">
+                        <div class="concept">Vision-Language Models</div>
+                        <div class="concept">Load Balancing</div>
+                        <div class="concept">Scalability</div>
+                        <div class="concept">Task Scheduling</div>
+                        <div class="concept">Time Series Forecasting</div>
+                        <div class="concept">Resource Management</div>
+                        <div class="concept">Kubernetes</div>
+                        <div class="concept">Docker</div>
+                    </div>
+                    <h3>Abstract</h3></h3>
+                    <div class="content">
+                        <p>Web-based navigation and content understanding rely heavily on alternative text descriptions for images, especially when speech-to-text systems are employed. However, these image captions are often incomplete, noisy, or missing. In this work, we propose a system that utilizes a Vision-Language Model (VLM) to synthesize accurate and contextually rich image captions. This approach aims to improve the accessibility and user experience for visually-impaired users and others who rely on screen readers. Additionally, we describe the design, implementation, and evalua- tion of a scalable, containerized cloud-based system that simulates the computational demands of such a VLM-based solution and explores various scheduling and load-balancing strategies. The code is available at https://github.com/2021sshah/cloud-latency- forecast-scheduling.</p>
+                    </div>
+                    <h3 style="margin-top: 50px; margin-bottom: 20px;">Project Report</h3>
+                    <div class="iframe-container pdf-container">
+                        <iframe src="../assets/projects/08-cloud-proj/Cloud_Project_Report.pdf"></iframe>
+                    </div>
+                </div>
+                `;
+                break;
             default:
                 contentHtml = "<h2>Looks like the project wasn't linked properly :( </h2> <p>Contact me if you'd like to resolve this!</p>";
         }
