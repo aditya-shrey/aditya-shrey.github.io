@@ -1,64 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditya Shrey</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="icon" href="assets/images/as.png" type="image/png">
+    <!-- <link rel="icon" href="assets/images/as.png" type="image/png">  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <!-- Header Bar Section -->
-    <div class="header-bar">
-        <div class="header-link-left">
-            <a href="/" class="header-link-left">
-                <img src="assets/images/adityashrey.png" alt="aditya shrey" class="normal-image">
-                <img src="assets/images/adityashrey_hover.png" alt="aditya shrey" class="hover-image">
-            </a>
+    <header>
+        <!-- <div class="logo">Aditya Shrey</div>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a> 
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </nav> -->
+    </header>
+    <section id="about">
+        <div class="container about-container">
+            <!-- <img src="assets/images/img-web.jpg" alt="Profile Picture" class="profile-pic"> -->
+            <div class="about-text">
+                <h2 style="font-size: 2em">Aditya Shrey</h2>
+                <p style="line-height: 1.5; align-items: center;">
+                    <a href="mailto:aditya.shrey@vanderbilt.edu"><i class="fa fa-envelope" style="font-size:28px;color:#34231e;"></i></a>&nbsp;&nbsp;
+                    <a href="https://github.com/aditya-shrey"><i class="fab fa-github" style="font-size:28px;color:#34231e;"></i></a>&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/in/adityashrey/"><i class="fab fa-linkedin" style="font-size:28px;color:#34231e;"></i></a>
+                </p>    
+                <p>
+                    I am currently a <span style="color:#008080;">software engineer intern</span> at <span style="color:#bc371c;">Amazon</span>.
+                </p>
+                <p>
+                    I am pursuing a <span style="color:#008080;">BS and MS in Computer Science</span> at <span style="color:#bc371c;">Vanderbilt University</span>, with an additional major in <span style="color:#008080;">Applied Mathematics</span>.  
+                    I will graduate in <span style="color:#bc371c;">December 2025</span> with both degrees through the accelerated master's program.  
+                    For my MS thesis, I am advised by <a href="https://forrestlaine.github.io" style="color:#1E90FF; text-decoration: none;" target="_blank">Dr. Forrest Laine</a> in the <a href="https://vampir-lab.github.io" style="color:#1E90FF; text-decoration: none;" target="_blank">VAMPIR Lab</a>.
+                    My interests include Machine Learning, Computational Game Theory, and Distributed Systems.
+                </p>
+                <br>                
+            </div>
         </div>
-        <nav class="header-link-right">
-            <a href="/projects/" class="header-link">projects</a>
-        </nav>
-    </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
 
-    <!-- Personal Information Section -->
-    <div class="personal_body" id="about">
-        <!-- <img class="personal_img" src="assets/images/me.jpeg"> -->
-        <div class="personal-body-text">
-            <p class="personal_title">Hi, I’m Aditya.</p>
-            <p class="personal_contact" style="display: flex; align-items: center;"></p>
-            <p class="personal_text" style="line-height: 1.5;">Welcome to my personal corner of the internet!</p>
-            <p class="personal_text" style="line-height: 1.5;">I’m currently a BS/MS student at <strong>Vanderbilt University</strong> studying <strong>Computer Science</strong> and <strong>Applied Mathematics</strong>.
-                My academic and professional interests are rooted in <strong>machine learning</strong>, <strong>algorithms</strong>, and <strong>system architecture</strong>.
-            </p>
-            <p class="personal_text" style="line-height: 1.5;">
-                This website serves as a platform for me to showcase projects that 
-                I’m passionate about. Join me as I explore the ever-evolving landscape of technology and innovation.
-            </p>
+            <div class="project-entry">
+                <img src="assets/projects/07-sparse-gp/simple-toy.png" alt="Project Image">
+                <div class="project-details">
+                    <h3>
+                        <strong>Kernel Combinations for Sparse Gaussian Processes in Correlated Web Traffic Forecasting</strong>
+                        [<a href="https://github.com/arvchahal/sparse-GP-kernel-combinations-web-forecasting" style="color:#1E90FF" target="_blank">code</a>]
+                    </h3>
+                    <p>
+                        An exploration of kernel combinations in a Sparse Gaussian Process framework to forecast web traffic data, optimizing scalability using inducing points and ELBO maximization.
+                    </p>
+                </div>
+            </div>
+
+            <hr class="project-divider">
+
+            <div class="project-entry">
+                <img src="assets/projects/08-cloud-proj/sys-design-vlm.png" alt="Project Image">
+                <div class="project-details">
+                    <h3>
+                        <strong>Cloud System for Web-based Accessibility using Synthetic Recaptioning</strong>
+                        [<a href="assets/projects/08-cloud-proj/Cloud_Project_Report.pdf" style="color:#1E90FF" target="_blank">report</a>]
+                    </h3>
+                    <p>
+                        A cloud-based system that explores scheduling strategies for task distribution and resource management to efficiently integrate Vision-Language Models for generating accurate and context-rich image captions in real-time.
+                    </p>
+                </div>
+            </div>
+
+            <hr class="project-divider">
+
+            <div class="project-entry">
+                <img src="assets/projects/05-productivity-pulse/PulseProducitivitylogo.png" alt="Project Image">
+                <div class="project-details">
+                    <h3>
+                        <strong>Pulse Productivity</strong>
+                        [<a href="https://pulseproductivity.online" style="color:#1E90FF" target="_blank">website</a>]
+                    </h3>
+                    <p>
+                        A productivity tool designed for project teams to streamline workflows, enhance collaboration, and maximize efficiency.
+                    </p>
+                </div>
+            </div>
+
+            <hr class="project-divider">
+
+            <div class="project-entry">
+                <img src="assets/projects/02-avproj/av.jpg" alt="Project Image">
+                <div class="project-details">
+                    <h3>
+                        <strong>Autonomous Taxi System within a Simulated City Environment</strong>
+                        [<a href="assets/projects/02-avproj/autonomous_vehicle_report.pdf" style="color:#1E90FF" target="_blank">report</a>]
+                        [<a href="assets/projects/02-avproj/autonomous_vehicle_pres.pdf" style="color:#1E90FF" target="_blank">slides</a>]
+                        [<a href="https://youtu.be/OBskx_j5HS4" style="color:#1E90FF" target="_blank">video demo</a>]
+                    </h3>
+                    <p>
+                        An Autonomous Vehicle Taxi system combining localization, routing, motion planning, and perception algorithms to navigate a simuated city.
+                    </p>
+                </div>
+            </div>
+
+            <hr class="project-divider">
+
+            <div class="project-entry">
+                <img src="assets/projects/03-grantselfservice/research-grants.jpg" alt="Project Image">
+                <div class="project-details">
+                    <h3>
+                        <strong>Grants Self Service System</strong>
+                        [<a href="assets/projects/03-grantselfservice/grants_self_service_slides.pdf" style="color:#1E90FF" target="_blank">slides</a>]
+                    </h3>
+                    <p>
+                        Grants-Self-Service System uses LLMs and RAG techniques to streamline Vanderbilt University's grant applications, providing quick access to prior grant data securely
+                    </p>
+                </div>
+            </div>
+
+            <hr class="project-divider">
+
+            <div class="project-entry">
+                <img src="assets/projects/04-quizlite/flashcards.jpg" alt="Project Image">
+                <div class="project-details">
+                    <h3>
+                        <strong>QuizLITE</strong>
+                        [<a href="https://github.com/aditya-shrey/QuizLITE" style="color:#1E90FF" target="_blank">code</a>]
+                    </h3>
+                    <p>
+                        A modern flashcard application designed for efficient learning and content management with adaptive study sessions.
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can contact me from any of the social links provided <a href="#about" style="color:#1E90FF; text-decoration: none;">above</a>.</p>
 
-    <!-- Footer Section -->
-    <div class="footer">
-        <p class="footer-text">
-            <a href="mailto:aditya.shrey@vanderbilt.edu">
-                <i class="fas fa-envelope"></i>
-            </a>
-            <a href="https://github.com/aditya-shrey" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/adityashrey/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-        </p>
-    </div>
-
-    <script>
-        function formatDate(date) {
-            const options = { year: 'numeric', month: 'long', day: 'numeric' };
-            return new Date(date).toLocaleDateString('en-US', options);
-        }
-        
-        document.getElementById("last-modified").textContent = formatDate(document.lastModified);
-    </script>
+        </div>
+    </section>
+    <footer>
+        Last updated: May 2025
+    </footer>
 </body>
 </html>
+
+
